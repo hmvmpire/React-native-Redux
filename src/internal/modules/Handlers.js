@@ -5,7 +5,7 @@ import ModuleSet from './AppModules';
 
 // TODO:  metro bundler dynamic issue
 const handlerModule = {
-  common: require(`./../../screens/redux/common/Handler`)
+  common: require(`./../../redux/common/Handler`)
 };
 export const Handlers = _(ModuleSet)
   .keyBy(module => module)

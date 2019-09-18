@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash-node";
 import { AllHandlers } from "../modules/Handlers";
 import { Actions } from "../modules/Actions";
-import { createLogger } from "../AppUtils";
+import { createLogger } from "../appUtils/appUtils";
 import { NetworkError } from "../models";
 
 const logger = createLogger("[Action]");

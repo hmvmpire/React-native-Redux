@@ -6,7 +6,7 @@ var _ = require('lodash');
 
 // metro bundler
 const reducerModule = {
-  common: require(`./../../screens/redux/common/Reducer`)
+  common: require(`./../../redux/common/Reducer`)
 };
 
 const Reducers = _(ModuleSet)

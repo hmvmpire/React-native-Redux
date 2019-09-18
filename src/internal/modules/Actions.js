@@ -2,7 +2,7 @@ import ModuleSet from './AppModules';
 var _ = require('lodash');
 // TODO:  metro bundler dynamic issue
 const actionModule = {
-  common: require(`./../../screens/redux/common/Actions`),
+  common: require(`./../../redux/common/Actions`),
 };
 
 export const Actions = _(ModuleSet)
