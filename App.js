@@ -10,7 +10,7 @@ import React from 'react';
 import { createAppContainer} from 'react-navigation';
 import { Provider } from 'react-redux'
 import MainNavigator from "./src/navigation/mainNavigator"
-
+import store from "./src/store"
 
 const Root = createAppContainer(MainNavigator);
 
@@ -18,6 +18,7 @@ const Root = createAppContainer(MainNavigator);
 class App  {
 
    render(){
+    
      const prefix = 'YourAppName://';
        return   <Provider store={store}>
                      <LoadingScreen />
