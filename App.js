@@ -6,31 +6,16 @@
  * @flow
  */
 
-import React, {Fragment} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
-
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import {createStackNavigator, createAppContainer} from 'react-navigation';
+import React from 'react';
+import { createAppContainer} from 'react-navigation';
 import { Provider } from 'react-redux'
+import MainNavigator from "./src/navigation/mainNavigator"
 
 
 const Root = createAppContainer(MainNavigator);
 
 
-class App extends Component {
+class App  {
 
    render(){
      const prefix = 'YourAppName://';

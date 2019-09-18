@@ -1,7 +1,7 @@
 
-import {createStackNavigator} from "react-navigation";
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
-import Home from "./../../screens"
+import {Home} from "./../../screens"
 
 
 export default HomeStack = createStackNavigator({
@@ -14,7 +14,7 @@ export default HomeStack = createStackNavigator({
 
 },{
     initialRouteName: 'Home',
-    gesturesEnabled: true
+    gesturesEnabled: true,
     headerMode: 'none'
     
 })
